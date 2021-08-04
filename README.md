@@ -42,7 +42,12 @@ Important characteristics:
     - Quality attributes (non-functional requirements) refers nonfunctional requirements such as usability, modifiability, reliability, performance and so on.
     - Forces are trade-offs one considers when trying to adopt a particular design pattern. These forces are typically manifested in quality attributes.
     - Consequences, e.g. better security but worse performance
-        
+
+#### Pattern language
+- Pattern language consists of name, context, problem, solution and related patterns.
+    - Context: Provides a scenario as to when to use it and vice versa.
+    - Problem: Describes design challange the pattern is trying to solve.
+    - Solution: Describes the pattern itself, including structure among elements and behavior i.e. interactions.
 
 Current Patterns
 ----------------
