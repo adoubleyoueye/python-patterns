@@ -3,10 +3,36 @@ python-patterns
 
 A collection of design patterns and idioms in Python.
 
+### What is a design pattern
+In short, design patterns are well-known solutions to recurring problems. 
+
+Motivations:
+- No need to waste time and reinvent the wheel.
+- Design patterns allow us to reuse these design ideas and also encourage use to the best practices. In turn lowering cost and increasing quality.
+
+Important characteristics:
+- Language neutral
+- Dynamic
+- Incomplete by design to promote customisation 
+
+#### Understanding OOP
+- Software development methodology. 
+- Design patterns rely heavily on the use of OOP languages
+- ##### Objects
+    - Representation of entities in both problem and solution domains.
+    
+- ##### Classes
+    - Templates to create objects to avoid recreating them each time. e.g cookie cutter
+    - Classes define objects in terms of attributes (properties of an entity) and methods(behaviours)
+    
+
 Current Patterns
 ----------------
 
 __Creational Patterns__:
+
+Definition: Used to create objects in a systematic way
+OOP Mechanism used: Polymorphism
 
 | Pattern | Description |
 |:-------:| ----------- |
@@ -19,6 +45,9 @@ __Creational Patterns__:
 | [prototype](patterns/creational/prototype.py) | use a factory and clones of a prototype for new instances (if instantiation is expensive) |
 
 __Structural Patterns__:
+
+Definition: Used to establish useful relationships between software components in configs.
+OOP Mechanism used: Inheritance
 
 | Pattern | Description |
 |:-------:| ----------- |
@@ -34,6 +63,10 @@ __Structural Patterns__:
 | [proxy](patterns/structural/proxy.py) | an object funnels operations to something else |
 
 __Behavioral Patterns__:
+
+Definition: Best practices of objects interaction
+Focus: Defining protocols in between these objects when they work together trying to accomplish a common goal.
+OOP Mechanism used: Methods and signatures
 
 | Pattern | Description |
 |:-------:| ----------- |
