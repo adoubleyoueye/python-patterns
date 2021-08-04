@@ -24,7 +24,16 @@ Important characteristics:
 - ##### Classes
     - Templates to create objects to avoid recreating them each time. e.g cookie cutter
     - Classes define objects in terms of attributes (properties of an entity) and methods(behaviours)
-    
+
+- ##### Inheritance and polymorphism
+    - Inheritance establishes a relationship between two classes (Parent & child)
+        - Keeps the attributes and methods of its parent
+        - Adds new attributes or methods of its own
+        - Can overide the existing methods of its parent
+        - e.g. Pet class -> Dog, Cat
+    - Polymorphism 
+        - Relies on inheritance, allows child classes to be instantiated and treated the same as type as parent
+        - Enables a parent class to be manifested into any of its child classes
 
 Current Patterns
 ----------------
