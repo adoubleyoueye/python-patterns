@@ -34,6 +34,15 @@ Important characteristics:
     - Polymorphism 
         - Relies on inheritance, allows child classes to be instantiated and treated the same as type as parent
         - Enables a parent class to be manifested into any of its child classes
+        
+#### Understanding pattern context
+
+- A pattern consits of participants, quality attributes, forces and consequences.
+    - Participants refer to classes involved to form a design pattern
+    - Quality attributes (non-functional requirements) refers nonfunctional requirements such as usability, modifiability, reliability, performance and so on.
+    - Forces are trade-offs one considers when trying to adopt a particular design pattern. These forces are typically manifested in quality attributes.
+    - Consequences, e.g. better security but worse performance
+        
 
 Current Patterns
 ----------------
